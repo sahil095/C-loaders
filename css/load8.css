@@ -1,0 +1,23 @@
+body{
+	background-color: rgb(3, 197, 193);
+}
+.spinner{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 5px solid rgba(255,255,255, 1);
+	animation: revolve 2s linear infinite;
+	position: relative;
+	margin: 20px auto;
+}
+
+@keyframes revolve{
+	0%{
+		transform: rotate(0deg);
+		border-right: 5px;
+	}
+	100%{
+		transform: rotate(360deg);
+		border-right: 5px;
+	}
+}

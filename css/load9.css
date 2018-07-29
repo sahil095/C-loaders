@@ -1,31 +1,15 @@
-/*.wrapper{
-    width: 700px;
-    margin: 0 auto;
-}
-.row{
-    text-align: center;
-    padding: 50px 0;
-}*/
-/*.span{
-    float: left;
-    width: 200px;
-    height: 200px;
-    background-color:rgb(13, 197, 193);
-    vertical-align: middle;
-    border-radius: 1px;
-}*/
-
 body{
     background-color: rgb(13, 197, 193);
 }
 
-.typing_loader{ 
-    margin: auto;
-    margin-top: 300px; 
+.typing_loader{  
     width: 30px;
     height: 30px;
     border-radius: 50%;
     animation: typing 1s linear infinite alternate;
+    margin: 46px auto; 
+    position: relative;
+    left: -37px; 
 }
 
 @keyframes typing{
