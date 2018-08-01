@@ -7,9 +7,8 @@
 .lazy3 {
   width: 28px;
   height: 28px;
-  /*border-radius: 50%;*/
   position: relative;
-  animation: loader10-uba7e1836 0.9s ease alternate infinite;
+  animation: pop 0.9s ease alternate infinite;
   animation-delay: 0.36s;
   top: 50%;
   margin: -42px auto 0; 
@@ -19,8 +18,7 @@
     position: absolute;
     width: 28px;
     height: 28px;
-    /*border-radius: 50%;*/
-    animation: loader10-uba7e1836 0.9s ease alternate infinite; 
+    animation: pop 0.9s ease alternate infinite; 
  }
  .lazy3::before {
     left: -40px;
@@ -31,7 +29,7 @@
     animation-delay: 0.54s;
 }
 
-@keyframes loader10-uba7e1836 {
+@keyframes pop {
   0% {
     box-shadow: 0 28px 0 -28px #ffffff; 
 }
