@@ -1,0 +1,49 @@
+.lazy4, .lazy4::before, .lazy4::after{
+	border: 7px solid transparent;
+	border-radius: 100%;
+	animation-name: rotate;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: -2s;
+	animation-iteration-count: infinite;
+}
+
+.lazy4{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 15px auto; 
+	border-top-color: white; 
+}
+
+.lazy4::before, .lazy4::after{
+		position: absolute;
+		content: "";
+}
+
+.lazy4::before{
+	top: 15px;
+	right: 15px;
+	bottom: 15px;
+	left: 15px;
+	border-top-color: white;
+	animation-duration: 4s; 
+}
+
+.lazy4::after{
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border-top-color: white;
+	animation-duration: 6s;
+}
+
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
